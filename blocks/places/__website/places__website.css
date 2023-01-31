@@ -4,7 +4,7 @@
     height: 46px;
     justify-content: space-between;
     flex-direction: column;
-    align-self: end;   
+    align-self: end;
 }
 
 @media screen and (max-width: 1023px) {
