@@ -1,0 +1,11 @@
+.header__links {
+    display: flex;
+    margin: 0;
+    grid-column-gap: 18px;
+    align-items: center;
+    transition: opacity 1s ease;
+}
+
+.header__links:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,31 @@
+.cover__overlay {
+    position: absolute;
+    width: 100%;
+    height: 740px; 
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: 2;
+    transition: opacity 1s ease;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__overlay {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        height: 200px;
+    }
+}
+
+.cover__overlay:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+.places__website {
+    display: flex;
+    max-width: 456px;
+    height: 46px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: end;   
+}
+
+@media screen and (max-width: 1023px) {
+    .places__website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__website {
+        max-width: 288px;
+        margin: 0 16px;
+    }
+}

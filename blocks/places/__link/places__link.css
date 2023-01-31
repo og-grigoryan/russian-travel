@@ -1,0 +1,15 @@
+.places__link {
+    max-width: 100%;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transition: opacity 1s ease;
+}
+
+.places__link:hover {
+    opacity: 0.8;
+}
