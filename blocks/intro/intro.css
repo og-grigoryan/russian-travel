@@ -1,7 +1,6 @@
 .intro {
     display: flex;
     max-width: 690px;
-    height: 429px;
     flex-direction: column;
     color: #FFFFFF;
     margin: 92px 442px 0 148px;
@@ -16,7 +15,6 @@
 @media screen and (max-width: 1023px) {
     .intro {
         width: 720px;
-        height: 429px;
         margin: 88px auto 0;
     }
 }
@@ -24,7 +22,6 @@
 @media screen and (max-width: 767px) {
     .intro {
         max-width: 288px;
-        height: 754px;
         margin: 64px auto 0;
     }
 }
