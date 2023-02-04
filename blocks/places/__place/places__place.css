@@ -27,5 +27,6 @@
     .places__place {
         grid-template-columns: 320px;
         margin-bottom: 50px;
+        row-gap: 32px;
     }
 }
