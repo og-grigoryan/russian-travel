@@ -1,12 +1,8 @@
 .cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
     max-width: calc(100% - 96px);
     min-height: 740px;
-    margin: 12px auto 0;
-    color: #FFFFFF;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -20,7 +16,6 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
-        margin: 17px auto 0;
     }
 }
 
@@ -28,6 +23,5 @@
     .cover {
         max-width: 320px;
         min-height: 200px;
-        margin: 16px auto 0;
     }
 }

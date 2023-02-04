@@ -1,10 +1,15 @@
 .cover__background {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../../../images/cover-trains.jpg);
     width: 100%;
     min-height: 740px;
     background-size: contain;
     background-repeat: no-repeat;
+    color: white;
+    box-shadow: inset 0 0 0 1184px rgb(42, 44, 47, 0.3);
+    transition: box-shadow 1s ease;
 }
 
 @media screen and (max-width: 1279px) {
@@ -23,4 +28,8 @@
     .cover__background {
         min-height: 200px;
     }
+}
+
+.cover__background:hover {
+    box-shadow: inset 0 0 0 1184px rgb(42, 44, 47, 0.8);
 }

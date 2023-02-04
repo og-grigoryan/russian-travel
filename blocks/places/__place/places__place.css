@@ -2,37 +2,30 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-template-rows: auto;
-    row-gap: 48px;
-    column-gap: 40px;
+    row-gap: 40px;
+    column-gap: 33px;
     max-width: 984px;
-    max-height: 660px;
     margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1279px) {
     .places__place {
         grid-template-columns: 440px 1fr;
-        column-gap: 32px;
         max-width: 928px;
-        max-height: 640px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places__place {
         grid-template-columns: 340px 1fr;
-        column-gap: 28px;
         max-width: 928px;
-        max-height: 564px;
-        margin-bottom: 73px;
+        margin-bottom: 75px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places__place {
         grid-template-columns: 320px;
-        row-gap: 32px;
-        max-height: 1042px;
         margin-bottom: 50px;
     }
 }
